@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-suporte {
+    width: 300px;
+    height: 111px;
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+.msg-suporte h2 {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.msg-suporte p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 378px;
+    border-radius: 2px;
+    padding-left: 21px;
+}
+
+.formulario .input {
+    position: relative;
+}
+
+.formulario .nome-completo, .email, .telefone {
+    width: 298.01px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.formulario p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario .mensagem {
+    resize: none;
+    width: 298.01px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.formulario .botao-enviar {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    width: 298px;
+    height: 41px;
+}
+
+.formulario .erro {
+    display: none;
+    color: #F52E2E;
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+    font-weight: 400;
+    font-size: 8px;
+}
