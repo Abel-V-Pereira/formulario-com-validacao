@@ -1,0 +1,10 @@
+@media (max-width: 710px) {
+    main {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .msg-suporte {
+        margin-left: 80px;
+    }
+}
